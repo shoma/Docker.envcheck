@@ -1,0 +1,11 @@
+version: '2'
+services:
+  checker:
+    build: .
+    image: shoma/envcheck
+    environment: #example
+      MYSQL_ROOT_PASSWORD: TopSecret
+      JAVA_HOME: "$JAVA_HOME"
+    ports:
+      - "8080:8080"
+
