@@ -1,4 +1,5 @@
-FROM python:3.5.2-alpine
+# shoma/envcheck
+FROM python:3.7-alpine
 
 COPY requirements.txt /usr/src/requirements.txt
 RUN /usr/local/bin/pip install -r /usr/src/requirements.txt
