@@ -17,3 +17,6 @@ Werkzeug = "==0.15.3"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+start = "python service.py"
