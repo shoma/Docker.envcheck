@@ -20,3 +20,6 @@ python_version = "3.7"
 
 [scripts]
 start = "python service.py"
+fix = "autopep8 --in-place --recursive ."
+lint = "autopep8 --diff --exit-code --recursive ."
+flake8 = "flake8"
